@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: #252525;
+}
+.shirt-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#shirt-image
+{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000000;
+}
+.image-grid
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10px;
+}
+.image-grid img
+{
+    cursor: pointer;
+    border: 1px solid #000000;
+    width: 300px;
+    height: 300px;
+}
